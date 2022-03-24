@@ -1,6 +1,5 @@
 gunicorn
 django
 channels
-django-channels
 psycopg2-binary
 channels-redis

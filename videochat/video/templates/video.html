@@ -192,7 +192,7 @@
         }
       };
 
-      const ws = new WebSocket("ws://video-chat-jayash.herokuapp.com/ws/");
+      const ws = new WebSocket("ws://"+ window.location.host + "/ws/");
       ws.onopen = () => {
         console.log("opened");
         ws.send(
